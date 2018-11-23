@@ -29,6 +29,8 @@ This is an outline of development methodologies that ought to be taken up when b
 Version Control: GitHub
 master/Launch/Production branches
 
+Added a dev, launch and prod branch. dev will be active devlopment, launch will be for stdlib FAAS API functions, prod will be the other which is pushed towards produciton live enviornment, and master will hold as the absolute code base.
+
 Component snippets - React/node
 API snippets - Django/GQL/Python
 
