@@ -21,12 +21,8 @@ c = api.OAuthClient(
 class Podio(object):
 
     def getWorkspaces():
-        '''
-        getWorkspaces reutrn lst of app ids
-        
-        input workspace url name, recieve list of app ids
-        '''
-        
+        """Get workspaces, id's
+        """
     def getApps(auth, wrkUrl):
         """Get all apps in a podio workspace,   
         quit()
@@ -34,23 +30,9 @@ class Podio(object):
             tkn (int): token for app auth
             wrkUrl (int): Workspace ID for api reference 
         """
-        find_single_app = c.find(app_id)
-        
-
     def getAppTemplate(app_id):
         """ Get Field Structure to auto generate GQL schema 
         """
     def genAppSchema()
     """ Generate a Graphql schema from the returned Json podio template + fields
     """
-
-    def genAppfields(parameter_list):
-        """
-        genAppfields Generate Django Model Field defs and output an django model object
-        
-        [description]
-        
-        Args:
-            parameter_list ([type]): [description]
-        """
-
